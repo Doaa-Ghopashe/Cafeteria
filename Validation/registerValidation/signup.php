@@ -35,7 +35,7 @@
     
         if (in_array($image_ext, $allowed_exts)) {
     
-            $image_dest = $_SERVER["DOCUMENT_ROOT"].'/Cafe_php_project/uploads/users/' . uniqid('', true) . '.' . $image_ext;
+            $image_dest = $_SERVER["DOCUMENT_ROOT"].'/Cafe_php_project/assets/users/' . $image_name ;
            
             move_uploaded_file($image_tmp_name, $image_dest);
 

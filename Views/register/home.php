@@ -41,7 +41,7 @@ $Products = DisplayNewestProductsQuery() ?? "";
                     <?php
                     foreach ($Products as $row) {
                     ?>
-                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                        <div class="col-xl-4 col-sm-12">
                             <div class="card_container">
                                 <div class="img_card">
                                     <img src="../../<?= $row['image'] ?>" alt="">

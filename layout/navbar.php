@@ -40,7 +40,7 @@ if (isset($_SESSION['user'])) {
           <a class="nav-link" href="/Cafe_php_project/Views/register/logout.php">LogOut<i class="fas fa-arrow-right-to-bracket pl-2"></i></a>
         </li>
         <li class="nav-item">
-          <a class="online-dote"><img src="<?php echo substr($user['image'], 15); ?>" width="30" alt="" class="user-img"></a>
+          <a class="online-dote"><img src="<?php echo substr($user['image'], 17); ?>" width="30" alt="" class="user-img"></a>
         </li>
       </ul>
     <?php } ?>
@@ -64,7 +64,7 @@ if (isset($_SESSION['user'])) {
           <a class="nav-link" href="/Cafe_php_project/Views/register/logout.php">LogOut<i class="fas fa-arrow-right-to-bracket pl-2"></i></a>
         </li>
         <li class="nav-item mr-2">
-          <a class="online-dote pr-2"><img src="<?php echo substr($user['image'], 15); ?>" width="30" alt="" class="user-img"></a>
+          <a class="online-dote pr-2"><img src="<?php echo substr($user['image'], 17); ?>" width="30" alt="" class="user-img"></a>
         </li>
       </ul>
     <?php }
